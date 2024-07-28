@@ -1,0 +1,13 @@
+.home-component {
+    display: block;
+    height: 100vh;
+    background: linear-gradient(45deg, #800080, #FFC0CB, #9370DB, #D8BFD8, #4B0082);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
